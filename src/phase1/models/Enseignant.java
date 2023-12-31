@@ -1,4 +1,4 @@
-package models;
+package phase1.models;
 
 import java.util.ArrayList;
 
@@ -23,6 +23,15 @@ public class Enseignant {
         this.grade = grade;
         this.dept = dept;
     }
+
+    public Enseignant(int idens, String nom, String prenom, String email, String grade) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.grade = grade;
+        this.id = idens;
+    }
+
 
     public String getNom() {
         return nom;
